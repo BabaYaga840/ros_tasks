@@ -14,4 +14,4 @@
 <ul>
 <li>first tried with c++ instead of python and could not get it to work(must have missed something) </li>
 <li>forgot to roscore and source the setup.bash file</li>
-<\ul>
+</ul>
