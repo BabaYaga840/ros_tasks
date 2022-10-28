@@ -21,4 +21,9 @@ Site used:-https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
 <ul>
 <li>followed instructions on above site to install ros</li>
 <li>use teleop launch file to control bot and store readings in a bag file<\li>
-<li>wrote a node that subscribes to the cmd_vel topic of the bag file, adds noise and publishes to a another topic<\li>
+<li>wrote a node that subscribes to the cmd_vel topic of the bag file, adds noise and publishes to a another topic noise_add<\li>
+  <h4>Problems faced:</h4>
+  unmet dependencies when installing turtlebot
+  had to delete multiple packages and reinstall everything to make turtlebot work
+  
+<h6>Note: publishing to cmd_vel, starting the simulation and playin g the rosbag would have given us the path with noise added</h6>
