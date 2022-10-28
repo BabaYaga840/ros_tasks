@@ -17,3 +17,8 @@
 </ul>
 
 <h3><u>Task-2</u></h3>
+Site used:-https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
+<ul>
+<li>followed instructions on above site to install ros</li>
+<li>use teleop launch file to control bot and store readings in a bag file<\li>
+<li>wrote a node that subscribes to the cmd_vel topic of the bag file, adds noise and publishes to a another topic<\li>
